@@ -102,7 +102,7 @@ body {
   right: 20px;
   width: 24px;
   height: 24px;
-  background-image: url("../dist/img/icons8-menu-26.png");
+  background-image: url("./img/icons8-menu-26.png");
   background-repeat: no-repeat;
   cursor: pointer;
   z-index: 100000;
