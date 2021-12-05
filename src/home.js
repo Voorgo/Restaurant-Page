@@ -14,7 +14,7 @@ function homePage() {
     const titleContainer = document.createElement('div');
     const buttonContainer = document.createElement('div');
 
-    document.querySelector('body').style.backgroundImage = 'url(../dist/img/bkgImg.jpg)';
+    document.querySelector('body').style.backgroundImage = 'url(./img/bkgImg.jpg)';
     navFirstLink.setAttribute('href', './index.html');
     navSecondLink.setAttribute('href', '#');
     navThirdLink.setAttribute('href', '#');

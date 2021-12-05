@@ -3,54 +3,54 @@ const items = [{
     title: 'Udon Noodeles with pork',
     qt: '360G',
     price: '21$',
-    image: '../dist/img/first.png'
+    image: './img/first.png'
 },{
     title: 'Yasai Tyahan',
     qt: '250G',
     price: '18$',
-    image: '../dist/img/second.png'
+    image: './img/second.png'
 },
 {
     title: 'Salad Kani Furuco',
     qt: '360G',
     price: '18$',
-    image: '../dist/img/3.png'
+    image: './img/3.png'
 },
 {
     title: 'Nobe From Smoked Eel',
     qt: '360G',
     price: '12$',
-    image: '../dist/img/4.png'
+    image: './img/4.png'
 },
 {
     title: 'Dessert Amitsu-Furutsu',
     qt: '250G',
     price: '4$',
-    image: '../dist/img/5.png'
+    image: './img/5.png'
 },
 {
     title: 'Suimono',
     qt: '250G',
     price: '15$',
-    image: '../dist/img/6.png'
+    image: './img/6.png'
 },
 {
     title: 'Beef With Mushrooms',
     qt: '360G',
     price: '7$',
-    image: '../dist/img/7.png'
+    image: './img/7.png'
 },
 {
     title: 'Kaiso Salad',
     qt: '400G',
     price: '15$',
-    image: '../dist/img/8.png'
+    image: './img/8.png'
 },]
 
 
 
 function menuPage() {
-    document.querySelector('body').style.backgroundImage = 'url(../dist/img/menu.jpg)';
+    document.querySelector('body').style.backgroundImage = 'url(./img/menu.jpg)';
     document.querySelector('body').style.backgroundColor = 'none'
     let navBar = document.querySelector('.navBar');
     let footer = document.querySelector('footer');
